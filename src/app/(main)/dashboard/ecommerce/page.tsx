@@ -20,14 +20,14 @@ export default function Page() {
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div className="flex flex-col gap-1">
-          <h1 className="text-3xl leading-none tracking-tight">Store Overview</h1>
+          <h1 className="text-3xl leading-none tracking-tight">Workspace Overview</h1>
           <p className="text-muted-foreground text-sm">{formattedDate}</p>
         </div>
 
         <div className="flex flex-wrap items-end justify-end gap-2 lg:w-fit">
           <Select defaultValue="this-month">
             <SelectTrigger className="w-34" id="ecommerce-period" size="sm">
-              <SelectValue placeholder="This Month" />
+              <SelectValue placeholder="Main Workspace" />
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
@@ -41,7 +41,7 @@ export default function Page() {
 
           <Select defaultValue="all-channels">
             <SelectTrigger className="w-40" id="ecommerce-channel" size="sm">
-              <SelectValue placeholder="All Channels" />
+              <SelectValue placeholder="All Projects" />
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
