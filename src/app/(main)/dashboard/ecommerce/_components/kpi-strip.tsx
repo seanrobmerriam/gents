@@ -130,7 +130,7 @@ export function KpiStrip() {
 
             <Card className="h-full rounded-none border-0 border-border border-b ring-0 md:border-r">
               <CardHeader>
-                <CardTitle className="font-normal text-sm">Requirements Met</CardTitle>
+                <CardTitle className="font-normal text-sm">Requirements Remaining</CardTitle>
                 <CardDescription className="text-3xl text-foreground tabular-nums leading-none tracking-tight">
                   7
                 </CardDescription>
@@ -141,14 +141,14 @@ export function KpiStrip() {
               <CardContent>
                 <div className="text-sm">
                   <span className="text-green-700 dark:text-green-300">12</span>
-                  <span className="text-muted-foreground"> Remaining</span>
+                  <span className="text-muted-foreground"> Fulfilled</span>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="h-full rounded-none border-0 border-border border-b ring-0">
               <CardHeader>
-                <CardTitle className="font-normal text-sm">Tokens Used</CardTitle>
+                <CardTitle className="font-normal text-sm">Context Tokens Remaining</CardTitle>
                 <CardDescription className="text-3xl text-foreground tabular-nums leading-none tracking-tight">
                   234,876
                 </CardDescription>
@@ -159,7 +159,7 @@ export function KpiStrip() {
               <CardContent>
                 <div className="text-sm">
                   <span className="text-muted-foreground">From</span>
-                   <span className="text-green-700 dark:text-green-300">3</span>
+                   <span className="text-green-700 dark:text-green-300"> 3</span>
                   <span className="text-muted-foreground"> Models</span>
                 </div>
               </CardContent>
@@ -167,7 +167,7 @@ export function KpiStrip() {
 
             <Card className="h-full rounded-none border-0 border-border border-b ring-0 md:border-r md:border-b-0">
               <CardHeader>
-                <CardTitle className="font-normal text-sm">Return Requests</CardTitle>
+                <CardTitle className="font-normal text-sm">Tool Requests</CardTitle>
                 <CardDescription className="text-3xl text-foreground tabular-nums leading-none tracking-tight">
                   18
                 </CardDescription>
@@ -178,14 +178,14 @@ export function KpiStrip() {
               <CardContent>
                 <div className="text-sm">
                   <span className="text-destructive">+0.6%</span>
-                  <span className="text-muted-foreground"> vs last month</span>
+                  <span className="text-muted-foreground"> vs Last Job</span>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="h-full rounded-none border-0 ring-0">
               <CardHeader>
-                <CardTitle className="font-normal text-sm">Stock Accuracy</CardTitle>
+                <CardTitle className="font-normal text-sm">Test Coverage</CardTitle>
                 <CardDescription className="text-3xl text-foreground tabular-nums leading-none tracking-tight">
                   97%
                 </CardDescription>
@@ -196,7 +196,7 @@ export function KpiStrip() {
               <CardContent>
                 <div className="text-sm">
                   <span className="text-green-700 dark:text-green-300">+2.4 pts</span>
-                  <span className="text-muted-foreground"> vs last audit</span>
+                  <span className="text-muted-foreground"> vs Last Audit</span>
                 </div>
               </CardContent>
             </Card>
