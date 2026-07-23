@@ -104,7 +104,8 @@ export function KpiStrip() {
               <CardContent>
                 <div className="text-sm">
                   <span className="text-green-700 dark:text-green-300">3</span>
-                  <span className="text-muted-foreground"> completed</span>
+                  <span className="text-muted-foreground"> Completed From</span>
+                  <span className="text-green-700 dark:text-green-300"> Job List A</span>
                 </div>
               </CardContent>
             </Card>
@@ -121,17 +122,17 @@ export function KpiStrip() {
               </CardHeader>
               <CardContent>
                 <div className="text-sm">
-                  <span className="text-green-700 dark:text-green-300">+8.3%</span>
-                  <span className="text-muted-foreground"> vs last week</span>
+                  <span className="text-green-700 dark:text-green-300">23</span>
+                  <span className="text-muted-foreground"> Completed</span>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="h-full rounded-none border-0 border-border border-b ring-0 md:border-r">
               <CardHeader>
-                <CardTitle className="font-normal text-sm">Customer Growth</CardTitle>
+                <CardTitle className="font-normal text-sm">Requirements Met</CardTitle>
                 <CardDescription className="text-3xl text-foreground tabular-nums leading-none tracking-tight">
-                  820
+                  7
                 </CardDescription>
                 <CardAction className="grid size-6 place-items-center rounded-sm bg-muted">
                   <Users className="size-3 text-foreground" />
@@ -139,17 +140,17 @@ export function KpiStrip() {
               </CardHeader>
               <CardContent>
                 <div className="text-sm">
-                  <span className="text-green-700 dark:text-green-300">+12.5%</span>
-                  <span className="text-muted-foreground"> vs last month</span>
+                  <span className="text-green-700 dark:text-green-300">12</span>
+                  <span className="text-muted-foreground"> Remaining</span>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="h-full rounded-none border-0 border-border border-b ring-0">
               <CardHeader>
-                <CardTitle className="font-normal text-sm">Average Order</CardTitle>
+                <CardTitle className="font-normal text-sm">Tokens Used</CardTitle>
                 <CardDescription className="text-3xl text-foreground tabular-nums leading-none tracking-tight">
-                  $128
+                  234,876
                 </CardDescription>
                 <CardAction className="grid size-6 place-items-center rounded-sm bg-muted">
                   <ReceiptText className="size-3 text-foreground" />
@@ -157,8 +158,9 @@ export function KpiStrip() {
               </CardHeader>
               <CardContent>
                 <div className="text-sm">
-                  <span className="text-destructive">-$4.20</span>
-                  <span className="text-muted-foreground"> vs last week</span>
+                  <span className="text-muted-foreground">From</span>
+                   <span className="text-green-700 dark:text-green-300">3</span>
+                  <span className="text-muted-foreground"> Models</span>
                 </div>
               </CardContent>
             </Card>
